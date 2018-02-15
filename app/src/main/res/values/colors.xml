@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color  name="colorPrimary">#1ABC9C</color>
+    <color name="colorPrimaryDark">#138D79</color>
+    <color name="colorAccent">#FF4081</color>
+    <drawable name="red">#ff4043</drawable>
+    <drawable name="white">#fff</drawable>
+
+
+
+</resources>

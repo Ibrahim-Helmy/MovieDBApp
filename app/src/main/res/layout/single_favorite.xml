@@ -1,0 +1,81 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.ibrahim_pc.rv.FragmentDetail"
+    android:background="#5003d403"
+    android:layout_margin="7dp"
+    >
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.example.ibrahim_pc.rv.FragmentDetail">
+
+        <!-- TODO: Update blank fragment layout -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="6sp"
+                android:textColor="#ab5c0701"
+
+                >
+                <ImageView
+                    android:id="@+id/fav_image_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_launcher_background"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/fav_Title_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:text="tittle"
+                        android:textColor="#f25c0701"
+
+                        />
+                    <TextView
+                        android:id="@+id/fav_Rate_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="21sp"
+                        android:text="rate"
+                        android:textColor="#f2ff894a"
+
+
+                        />
+                    <TextView
+                        android:id="@+id/fav_date_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="date"
+                        android:textColor="#fdffa347"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

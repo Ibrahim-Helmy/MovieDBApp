@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="13dp"
+    android:background="#f7d4ffd4"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/poster_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:background="#f7f2fcf2"
+            />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_gravity="bottom"
+           android:background="#dddefdf8"
+
+
+
+           >
+           <TextView
+               android:id="@+id/title_id"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="ffggdgdg"
+               android:layout_gravity="center"
+               android:maxLines="2"
+               android:textStyle="bold"
+               android:textColor="#e75b0505"
+               android:gravity="center"
+               android:paddingLeft="9dp"
+
+               />
+           <ImageView
+               android:id="@+id/sharebtn_id"
+
+               android:layout_width="wrap_content"
+               android:layout_margin="4dp"
+               android:layout_height="match_parent"
+
+               android:src="@drawable/ic_share_black_24dp"
+
+               />
+           <com.github.ivbaranov.mfb.MaterialFavoriteButton
+               android:id="@+id/favoritBtn_id"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+                android:layout_margin="4dp"
+               android:layout_marginBottom="4dp"
+               />
+
+
+
+
+       </LinearLayout>
+    </FrameLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
