@@ -101,7 +101,8 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<MyRecycleAdapter.MyVi
             //1-favoriteButton
 
             MaterialFavoriteButton favoriteButton = itemView.findViewById(R.id.favoritBtn_id);
-//>>>>
+//>>>>>>>
+
             SharedPreferences  sharedPreferences= PreferenceManager.getDefaultSharedPreferences(context);
 
             favoriteButton.setOnFavoriteChangeListener(new MaterialFavoriteButton.OnFavoriteChangeListener() {
@@ -145,9 +146,8 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<MyRecycleAdapter.MyVi
             Result c = this.Movies.get(position);
             context.setItem(c);
 
-            Toast.makeText(this.context, "on Resycle", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this.context, "you Clicked "+c.getTitle(), Toast.LENGTH_SHORT).show();
 
-            Log.i("onclikkkkkkkkkk", " recycleadapter");
 
         }
 
